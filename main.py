@@ -3,9 +3,9 @@ import cv2
 import xml.dom.minidom
 
 ### YOU EDIT HERE
-images_path = "images/" # include slash at the end
-annotations_path = "annotations_pascal_voc/" # include slash at the end
-output_path = "image_bounding_boxes/{}.png" # choose png/jpg or other
+images_path = "sample_data/images/" # include slash at the end
+annotations_path = "sample_data/annotations_pascal_voc/" # include slash at the end
+output_path = "sample_data/image_bounding_boxes/" + "{}.png" # include slash at the end; choose png/jpg or other
 ###
 
 files = os.listdir(images_path)
